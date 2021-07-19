@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://saicherry93479.github.io/InteriorDesign",
+  "homepage": "https://saicherry93479.github.io/InteriorDesign/",
   
   "dependencies": {
     "@material-ui/core": "^4.12.1",
