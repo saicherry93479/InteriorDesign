@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --primarycolor--:#3F51B5;
+    --fontRoboto--:'Roboto', sans-serif;
+    --secondarycolor--:#f50057;
+}
+main{
+    height: 80vh;
+    display: flex;
+    width: 100%;
+    /* background: yellow; */
+    justify-content: center;
+
+
+}
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding:0% 20%; */
+    /* background: rgb(10, 7, 153); */
+
+
+}
+.content >.content-Inner{
+    width: 60%;
+}
+.content>.content-Inner h1{
+    
+    font-family: var(--fontRoboto--);
+    margin-bottom: 5vh;
+    color: var(--secondarycolor--);
+
+}
+.content >.content-Inner>.link>button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:8px 20px;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--secondarycolor--);
+    cursor: pointer;
+}
+.content >.content-Inner>.link> button>span{
+    color: var(--secondarycolor--);
+}
+.image{
+    /* background: rgb(17, 192, 55); */
+    flex: 1;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+.image img{
+    height: 70%;
+    width: 70%;
+}
+
+@media All and (max-width:600px){
+    .content >.content-Inner{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .content>.content-Inner h1{
+        font-size: 20px;
+    }
+    .image img{
+        height: 80%;
+        width: 90%;
+    }
+
+}

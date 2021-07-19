@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --primarycolor--:#3F51B5;
+    --fontRoboto--:'Roboto', sans-serif;
+    --secondarycolor--:#f50057;
+}
+.productMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+
+    margin:auto;
+    /* background-color: red; */
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.productImage{
+    flex: 1.5;
+    height: 100%;
+    
+}
+.productContent{
+    flex:1;
+    padding: 10%;
+    align-self: flex-start;
+    /* background-color: red; */
+    
+}
+.productContent h2{
+    font-family: var(--fontRoboto--);
+    color: var(--secondarycolor--);
+    margin-bottom: 20px;
+
+}
+.productContent h4{
+    margin-bottom: 20px;
+}
+.productContent p{
+    font-family: var(--fontRoboto--);
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+@media All and (max-width:600px){
+    .productMain{
+        flex-direction: column;
+        margin-top: 18vh;
+        height: 55vh;
+        margin-bottom: 0vh;
+
+    }
+    .productContent{
+        padding: 2% 10%;
+    }
+    .productContent h2{
+        
+        margin-bottom: 2vh;
+
+    }
+    .productContent h4{
+        margin-bottom: 2vh;
+    }
+    .productContent p{
+        margin-bottom: 2vh;
+        line-height: 20px;
+
+    }
+
+}

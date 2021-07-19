@@ -1,0 +1,25 @@
+.footer{
+    background-color: rgb(36, 32, 32);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-content1>h1{
+    color: #F50057;
+}
+.footer-content2 >ul{
+    list-style: none;
+}
+.footer-content2 >ul >li{
+    color: white;
+    margin-bottom:20px ;
+}
+@media All and (max-width:600)
+{
+    .footer-content1>h1{
+        font-size: 30px;
+    }
+
+}

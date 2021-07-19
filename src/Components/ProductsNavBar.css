@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --primarycolor--:#3F51B5;
+    --fontRoboto--:'Roboto', sans-serif;
+    --secondarycolor--:#f50057;
+}
+
+.NAV{
+    background-color: transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    
+   
+   
+    position: relative;
+    background-color: gray;
+    
+  
+}
+.NAV >.Logo{
+    margin-left: 20px;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NAV >.Logo>h2{
+    font-family: var(--fontRoboto--);
+    color: var(--secondarycolor--);
+    
+}
+.NAV> .link>button{
+    border: 1px solid var(--secondarycolor--);
+    padding: 8px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: var(--secondarycolor--);
+   
+    /* cursor: pointer; */
+}
+.link{
+    font-family: var(--fontRoboto--);
+    margin-right: 20px;
+   
+}
+.NAV >.link >button:hover {
+    background-color: rgba(245, 0, 87,0.2);
+    /* opacity: 0.3; */
+    transition: all 0.5s ease;
+
+
+}
