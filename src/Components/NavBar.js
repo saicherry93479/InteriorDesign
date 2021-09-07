@@ -34,7 +34,7 @@ function NavBar() {
        
             <nav  className={color? 'scroll':'navbar'} >
               <div className="Logo">
-                <Link to="/" className="link" > <h2>Interior Design</h2></Link>
+                <Link to="/" className="link" > <h2>Interior Designs</h2></Link>
                 
               </div>
               <Link to="/signin" color="inherit" className="link"><button > Sign In </button></Link>
